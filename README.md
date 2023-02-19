@@ -1,5 +1,7 @@
 # BLE-Influxdb/MQTT_gateway
-Gateway script written in python to send data recieved from Bluetooth Low Energy (BLE) devices to a InfluxDB database and as well as a MQTT broker. Based on python Asynchio framework.
+Gateway script written in python to send data recieved from Bluetooth Low Energy (BLE) devices to a InfluxDB database and as well as a MQTT broker. The gateway program uses Bleak library to receive data from bluetooth devices and is based on python Asynchio framework.
+
+The Gateway has been tested with both Bluetooth 4.0 and 5.0 adapters is compatible with bluethooth adapters from a wide range of brands unlike BLE gateways based on NOBLE js (Node Js based BLE libaray)
 
 The flowchart for the gatewaycode is seen below
 ![gateway](https://user-images.githubusercontent.com/85490469/219934565-874b9b4f-622a-48ac-bcc3-06c26e72b3cb.png)
