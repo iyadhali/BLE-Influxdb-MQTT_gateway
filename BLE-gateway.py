@@ -131,8 +131,8 @@ loop = asyncio.get_event_loop()
 d=D()
 try:
     asyncio.ensure_future(d.cor1(sys.argv[1] if len(sys.argv) == 2 else ADDRESS))
-    #asyncio.ensure_future(d.cor2())
-    asyncio.ensure_future(d.cor3())
+    asyncio.ensure_future(d.cor2())
+    #asyncio.ensure_future(d.cor3())
     loop.run_forever()
 except KeyboardInterrupt:
     pass
